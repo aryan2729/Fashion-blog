@@ -1,0 +1,302 @@
+#logo{
+
+    padding: auto;
+    margin: 100;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border-radius: 44px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+#name{
+    padding: auto;
+    font-family:cursive;  
+    cursor: pointer;
+    margin-top: 16px;
+    font-weight: bolder;
+    font-size: 40px;
+
+    
+    
+}
+
+#top-bars 
+{   
+    border: auto;
+    outline-style:inherit;
+    display: flex; 
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 5px;
+    box-shadow: 2px 1px 2px #eee;
+    background-color:palevioletred;
+    
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: lightpink;
+}
+
+
+.toplinks{
+    font-size: 25px; 
+    padding: 25;
+    margin-left: 25px;
+    margin-top: 29px;
+   
+   
+    
+}
+#input{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 30px;
+   
+
+}
+
+#input1{
+    outline-style:inherit;
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: auto;
+    border-color: pink;
+}
+
+
+
+#links{
+    display: flex;
+    font-family: cursive;
+    font-weight: 200;
+    cursor: pointer;
+
+    
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    border-style:inset;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.video-container {
+    position: relative;
+    width: 300px;
+    height: 500px; 
+    margin: 10px;
+    overflow: hidden; 
+    background-color: #333; 
+    border-style:inset;
+    
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-style:inset;
+}
+
+.video-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color:beige;
+}
+
+td {
+    background-color: beige;
+}
+
+footer {
+    background: #333;
+    color: beige;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
+
+
+.social-search-container {
+    position: absolute;
+
+    right: 20px;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.social-icons a:hover {
+    color: #ffcccc; /* Light pink on hover */
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+}
+
+.search-button input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.search-button button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-button button i {
+    font-size: 16px;
+}
