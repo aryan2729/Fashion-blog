@@ -32,7 +32,7 @@ Welcome to **Fashion Fusion**, your ultimate destination for fashion inspiration
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/fashion-fusion.git
+   git clone https://github.com/aryan2729/Fashion-blog.git
 2. Navigate to the project directory:
    sh
    cd fashion-fusion
@@ -54,5 +54,6 @@ Welcome to **Fashion Fusion**, your ultimate destination for fashion inspiration
 5. Open a pull request with a detailed description of your changes.
 
 ## Contact 
-Author: Aryan
+Author: Aryan 
+<br> 
 GitHub: aryan2729
