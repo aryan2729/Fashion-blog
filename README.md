@@ -9,7 +9,6 @@ Welcome to **Fashion Fusion**, your ultimate destination for fashion inspiration
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
